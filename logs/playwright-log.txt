@@ -1,0 +1,19 @@
+{"level":30,"time":"2024-10-10T20:50:58.313Z","pid":13112,"hostname":"elrisonsilva","msg":"Listening on 61569"}
+{"level":30,"time":"2024-10-10T20:50:58.419Z","pid":13112,"hostname":"elrisonsilva","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-10-10T20:50:58.420Z","pid":13112,"hostname":"elrisonsilva","msg":"Initializing extension: C:\\Users\\Elris\\OneDrive\\Documentos\\QAx-robot-play\\projects\\parodify-robot\\resources\\module.js"}
+================= Original suppressed error =================
+ReferenceError: MockMySong is not defined
+    at Object.<anonymous> (C:\Users\Elris\OneDrive\Documentos\QAx-robot-play\projects\parodify-robot\resources\module.js:21:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:135:16)
+    at initializeExtension (C:\Users\Elris\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:10822:36)
+=============================================================
+{"level":30,"time":"2024-10-10T20:50:58.421Z","pid":13112,"hostname":"elrisonsilva","msg":"Error of node method  initializeExtension"}
+{"level":30,"time":"2024-10-10T20:50:58.486Z","pid":13112,"hostname":"elrisonsilva","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-10T20:50:58.486Z","pid":13112,"hostname":"elrisonsilva","msg":"End of node method closeAllBrowsers"}
